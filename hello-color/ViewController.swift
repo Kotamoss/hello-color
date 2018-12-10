@@ -10,12 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var isGreen = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func changeColor(_ sender: Any) {
+        if isGreen {
+            
+        }
     }
     
 }
