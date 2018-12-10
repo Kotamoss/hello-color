@@ -19,7 +19,12 @@ class ViewController: UIViewController {
 
     @IBAction func changeColor(_ sender: Any) {
         if isGreen {
-            
+            //view represent view on view controller
+            view.backgroundColor = UIColor.purple
+            isGreen = false
+        } else {
+            view.backgroundColor = UIColor.green
+            isGreen = true
         }
     }
     
